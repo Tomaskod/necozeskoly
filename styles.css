@@ -1,0 +1,21 @@
+section{
+    font-size: 200%;
+    columns: 8 200px;
+    column-rule: 2px solid black;
+    column-gap: 200px;
+    
+}
+    
+
+section h1{
+     column-span:all ;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     font-size: 200%;
+}
+p.idk{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
